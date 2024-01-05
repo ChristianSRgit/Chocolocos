@@ -1,6 +1,14 @@
 /* #F22E62
 #4BA69D
 #1a1a1a */
+
+@font-face {
+    font-family: 'Planet Kosmos';
+    src: url('/fonts/PLANK.TTF');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     box-sizing: border-box;
 }
