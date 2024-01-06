@@ -112,8 +112,12 @@ footer {
 }
 
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
 
+    
+    ul{
+        display: flex;
+    }
    
 
     .card-list {
@@ -123,10 +127,19 @@ footer {
     }
 
     .card {
+        
         width: 80%; /* O el ancho que prefieras para las tarjetas en móviles */
     }
 
     .titulito{
         font-size:4rem !important;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .titulito{
+        font-size:2.5rem !important;
+
     }
 }
