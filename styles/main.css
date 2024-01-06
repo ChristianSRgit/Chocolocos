@@ -112,7 +112,7 @@ footer {
 }
 
 
-@media (max-width: 610px) {
+@media (max-width: 460px) {
 
     
     ul{
@@ -133,13 +133,16 @@ footer {
 
     .titulito{
         font-size:4rem !important;
+        background-color: red;
 
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 650px) {
     .titulito{
         font-size:2.5rem !important;
+        background-color: yellow;
+
 
     }
 }
