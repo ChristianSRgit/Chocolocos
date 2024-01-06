@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', (event) => {
     const footer = document.getElementById('footer');
     const year = new Date().getFullYear();
-    footer.textContent = ` ${year}`;
+    footer.textContent = ` ${year} xd`;
 });
