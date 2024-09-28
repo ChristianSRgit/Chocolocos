@@ -10,14 +10,13 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Archivo Black';
     src: url('/fonts/ArchivoBlack-Regular.ttf');
     font-weight: normal;
     font-style: normal;
 }
-
-
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -37,11 +36,9 @@ body {
     font-size: 2.5rem;
     color: #FFFFFF;
     font-family: 'Planet Kosmos', Arial, sans-serif;
-    
+
 }
-.header h1 {
-    font-family: 'Planet Kosmos', Arial, sans-serif;
-}
+
 .subtitle {
     font-size: 1.2em;
     margin: 20px 0;
@@ -73,6 +70,7 @@ h2{
 .features {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .feature {
@@ -123,7 +121,6 @@ p{
 @media (min-width: 768px) {
     .features {
         flex-direction: row;
-        justify-content: space-around;
     }
 
     .feature {
