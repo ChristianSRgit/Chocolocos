@@ -4,6 +4,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'Planet Kosmos';
+    src: url('/fonts/PLANK.TTF');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
